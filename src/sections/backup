@@ -1,0 +1,158 @@
+<div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                    <div className="md:5/12 lg:w-5/12">
+                        <img
+                            src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                            alt="image"
+                            loading="lazy" width="" height=""></img>
+                    </div>
+                    <div className="md:7/12 lg:w-6/12">
+                        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Project Description</h2>
+                        <p className="mt-6 text-gray-600">Our main focus is Endocrine Disrupting Chemicals (EDCs), a
+                            concern that will only worsen with the passing of time. This problem was approached by our
+                            past team (iGEM TecCEM 2021) and we still believe in the necessity of obtaining practical
+                            solutions, thus we are working this year around improving the past work but also going
+                            further by proposing a practical solution. But what are EDCs and why is it problematic? </p>
+
+                        <label htmlFor="my-modal" className="btn modal-button my-4">open modal</label>
+                    </div>
+                </div>
+
+                <div className="mt-10 lg:w-8/12 m-auto">
+                    <h2 className="text-2xl text-gray-900 font-bold m-auto text-center">The Danger Agent, What is an
+                        EDC?</h2>
+                    <p className="mt-6 text-gray-600">
+                        An EDC (Endocrine Disrupting Chemical) are substances present in the environment; anywhere from
+                        the soil to the air we breathe and even in the water we drink and the food we eat.
+                        According to the U.S. Environmental Protection Agency an EDC is: “an exogenous agent that
+                        interferes with synthesis, secretion, transport, metabolism, binding action, or elimination of
+                        natural blood-borne hormones that are present in the body and are responsible for homeostasis,
+                        reproduction, and developmental process.”[1]
+                    </p>
+                    <p className="mt-4 font-bold">
+                        In short EDCs can interfere with endocrine or hormonal systems.
+                    </p>
+                </div>
+
+                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                    <div className="md:7/12 lg:w-6/12 w-1/3">
+                        <h2 className=" mt-8 text-2xl text-gray-900 font-bold m-auto text-center"> Effects of EDCs on
+                            the
+                            human
+                            body</h2>
+                        <p className="mt-4 text-gray-600">
+                            With the past definition it might be easy to comprehend why they are negative for us, but we
+                            can
+                            go further in.
+                            EDCs interfere with the body's natural hormone system. It can go as far as acting like a
+                            “hormone mimic”, leading the body to believe they are hormones, allowing them (EDCs) to
+                            block
+                            the natural work of hormones. Some can increase or decrease the total amount of hormones in
+                            our
+                            bloodstream, affecting how they are produced, synthesized and even stored up in our body.
+                            [2]
+                            Because of its capacity to modify the normal hormonal activity it can lead to consequences
+                            such
+                            as: alterations in sperm quality and fertility, abnormalities in sex organs, endometriosis,
+                            early puberty, altered nervous system function, immune function, certain cancers,
+                            respiratory
+                            problems, metabolic issues, diabetes, obesity, cardiovascular problems, growth, neurological
+                            and
+                            learning disabilities, and more. [2]
+
+                        </p>
+                    </div>
+                    <div className="md:5/12 lg:w-5/12">
+                        <img
+                            src="https://images.immediate.co.uk/production/volatile/sites/4/2015/11/GettyImages-957039076-ade9e3e.jpg"
+                            alt="image"
+                            loading="lazy" width="" height=""></img>
+                    </div>
+                </div>
+
+                <div className="lg:w-7/12 m-auto">
+                    <h2 className="text-2xl text-gray-900 font-bold m-auto text-center">Source of EDC</h2>
+                    <p className="mt-6 font-bold">
+                        EDC’s can have many different sources such as:</p>
+                    <ul className="list-disc ml-5 mt-2">
+                        <li>
+                            Industrial waste can lead to major contamination into soil and groundwater with
+                            industrial chemicals. Also much of this chemical waste can end up in wastewater. This
+                            can create a great chain of contamination making its way through our food chain, from
+                            fish, animals or crops that were in contact with such contamination chains. [3]
+                        </li>
+                        <li>
+                            Common consumer products contain EDC’s or are packaged in containers which can be sources of
+                            EDC’s. Some examples are household products, fabrics for clothing, fabrics treated with
+                            flame retardants, cosmetics, lotions, products with fragrances, soaps, anti-bacterials,
+                            cleaning products, among others Processed foods can accumulate EDC’s from its manufacturing,
+                            packing, transportation or storage. [2]
+                        </li>
+                        <li>
+                            From discarded drugs into wastewater. The most common are metformin, which is for type II
+                            diabetes, and carbamazepine.
+                        </li>
+                        <li>
+                            There can be “natural” EDC’s coming from plants or humans such as estrogen excretion or
+                            another example are Soy-based products contain phytoestrogens, which are chemicals produced
+                            by plants that mimic estrogen. [2]
+                        </li>
+                        <li>
+                            Also present in household construction materials or furniture finding its way through
+                            household dust. [2]
+                        </li>
+                        <li>
+                            Pesticides, fungicides and herbicides are common sources of EDC’s that lead to the
+                            contamination of crops.
+                        </li>
+                    </ul>
+
+                    <p className="mt-6">
+                        This exposure can occur with the presente products, through drinking contaminated water,
+                        breathing contaminated air, ingesting food, or contacting contaminated soil.
+                        Agricultural workers are at great risk of developing a reproductive or endocrine abnormality
+                        because of their close contact with EDC’s from pesticides, fungicides, industrial chemicals and
+                        wastewater. This past relation also leads to the contamination of crops consumed by humans and
+                        animals to receive these chemicals. [3]
+                    </p>
+
+                    <p className="mt-2">
+                        Another problematic factor is related to EDC’s half life, which for industrial convenience they
+                        were designed to have long half lives, but after many decades these substances are still
+                        present, mainly because they can’t be easily metabolized or in some occasions they are broken
+                        down into more toxic compounds than the original molecule. Some substances that were banned
+                        decades ago are still present in the environment in high concentrations. [3]
+
+                    </p>
+
+
+                </div>
+            </div>
+
+            <input type="checkbox" id="my-modal" className="modal-toggle"/>
+            <div className="modal">
+                <div className="modal-box">
+                    <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use
+                        Wikipedia for free!</p>
+                    <div className="modal-action">
+                        <label htmlFor="my-modal" className="btn">Yay!</label>
+                    </div>
+                </div>
+            </div>

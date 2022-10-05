@@ -2,13 +2,14 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home_page";
 import Laboratory from "./pages/laboratory_page";
+import LogBookPage from "./pages/logbook_page";
 
 export default function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="about" element={<LogBookPage />} />
       </Routes>
       <Laboratory></Laboratory>
     </div>
