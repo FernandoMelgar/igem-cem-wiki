@@ -9,19 +9,18 @@ import {ContentBox} from "../components/content_box";
 import ThreeDisplaySection from "../sections/three_display_section";
 import InfoOverview from "../components/info_overview";
 import ProjectDescriptionSection from "../sections/project_description_section";
-import DisplayInfoImgLeft from "../components/display_info/display_info_img_left";
+import GlassCard from "../components/glass_card";
 
 export default function Home() {
     return (
         <div>
-            <Header></Header>
             <IgemHero></IgemHero>
             <ProjectDescriptionSection></ProjectDescriptionSection>
             <ExperimentInfo></ExperimentInfo>
             <ContentBox></ContentBox>
             <ThreeDisplaySection></ThreeDisplaySection>
             <InfoOverview></InfoOverview>
-            <IgemFooter></IgemFooter>
+            <GlassCard></GlassCard>
         </div>
     );
 }
