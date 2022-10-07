@@ -8,22 +8,24 @@ import IgemFooter from "./sections/footer_section";
 import LaboratoryPage from "./pages/laboratory_page";
 import TeamPage from "./pages/team/team_page";
 import SocialImpactPage from "./pages/social_impact/social_impact_page";
+import NotebookPage from "./pages/notebook/notebook_page";
 
 export default function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<LogBookPage />} />
-        <Route path="/laboratory" element={<LaboratoryPage />} />
-        <Route path="/laboratory/safety" element={<SafetyProjectPage />} />
-        <Route path="/team" element={<TeamPage />} />
-        <Route path="/social-impact" element={<SocialImpactPage />} />
-      </Routes>
-      <IgemFooter />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="about" element={<LogBookPage/>}/>
+                <Route path="/laboratory" element={<LaboratoryPage/>}/>
+                <Route path="/laboratory/safety" element={<SafetyProjectPage/>}/>
+                <Route path="/team" element={<TeamPage/>}/>
+                <Route path="/social-impact" element={<SocialImpactPage/>}/>
+                <Route path="/laboratory/notebook" element={<NotebookPage/>}/>
+            </Routes>
+            <IgemFooter/>
+        </div>
+    );
 }
 
 function About() {
