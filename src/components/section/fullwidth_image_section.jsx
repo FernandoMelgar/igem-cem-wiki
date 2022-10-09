@@ -40,7 +40,6 @@ export default function SectionContent(props) {
           </p>
         </div>
       </div>
-      <GlassCard title="Pepsico"></GlassCard>
     </div>
   );
 }

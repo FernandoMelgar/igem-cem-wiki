@@ -107,7 +107,7 @@ const data = [
         imgUrl: "https://placeimg.com/192/192/people",
     },
     {
-        name: "Mirelle C.",
+        name: "Mirelle Culebro",
         imgUrl: "https://placeimg.com/192/192/people",
     },
     {
@@ -197,9 +197,9 @@ const professors = [
 
 export default function TeamPage() {
     return (
-        <div className="hero"
+        <div className="hero pt-20"
              style={{backgroundImage: `url(${bgUrl})`, minHeight: 200}}>
-            <div className="hero-overlay p-10 text-center">
+            <div className="p-10 text-center">
                 <h1 className=" text-5xl text-white pb-4" style={{fontFamily: 'Cano'}}>Our Team</h1>
                 {data.map(function (value) {
                     return <MemberPhoto name={value.name} imgUrl={value.imgUrl}/>
