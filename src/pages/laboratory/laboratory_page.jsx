@@ -1,4 +1,3 @@
-import laboratoryBg from "./Laboratory.png";
 import CardContainer from "../../components/card/CardContainer";
 
 export default function LaboratoryPage() {
@@ -6,7 +5,9 @@ export default function LaboratoryPage() {
     <div>
       <div
         className="relative hero min-h-screen"
-        style={{ backgroundImage: `url(${laboratoryBg})` }}
+        style={{
+          backgroundImage: `url(https://static.igem.wiki/teams/4260/wiki/imagen/laboratory/fondo-head-laboratory.png)`,
+        }}
       >
         <div className="hero-overlay bg-opacity-10"></div>
         <div
