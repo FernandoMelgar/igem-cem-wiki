@@ -1,4 +1,8 @@
 import laboratoryBg from "./Laboratory.png";
+import Carousel from "../components/Carousel";
+import { cardData } from "../components/componentData/CardData";
+import CardContainer from "../components/card/CardContainer";
+import Card from "../components/card/card";
 
 export default function LaboratoryPage() {
   return (
@@ -14,29 +18,8 @@ export default function LaboratoryPage() {
         >
           <div className="">
             <h1 className="my-10 text-9xl font-bold">L A B O R A T O R Y</h1>
-            <div className="carousel rounded-box max-w-5xl m-auto">
-              <div className="carousel-item">
-                <img src="https://placeimg.com/384/512/arch" alt="Burger" />
-              </div>
-              <div className="carousel-item">
-                <img src="https://placeimg.com/284/512/arch" alt="Burger" />
-              </div>
-              <div className="carousel-item">
-                <img src="https://placeimg.com/284/512/arch" alt="Burger" />
-              </div>
-              <div className="carousel-item">
-                <img src="https://placeimg.com/284/512/arch" alt="Burger" />
-              </div>
-              <div className="carousel-item">
-                <img src="https://placeimg.com/284/512/arch" alt="Burger" />
-              </div>
-              <div className="carousel-item">
-                <img src="https://placeimg.com/284/512/arch" alt="Burger" />
-              </div>
-              <div className="carousel-item">
-                <img src="https://placeimg.com/284/512/arch" alt="Burger" />
-              </div>
-            </div>
+            <Carousel />
+            <CardContainer />
 
             <button className="btn btn-primary">Get Started</button>
           </div>

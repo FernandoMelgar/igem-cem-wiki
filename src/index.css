@@ -84,11 +84,12 @@ body {
   transition-duration: 1s;
   transform: scale(1.08);
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 h1 {
-  font-family: 'Cano', serif;
+  font-family: "Cano", serif;
 }
