@@ -1,5 +1,4 @@
 import laboratoryBg from "./Laboratory.png";
-import Carousel from "../../components/carousel";
 import CardContainer from "../../components/card/CardContainer";
 
 export default function LaboratoryPage() {
@@ -16,7 +15,6 @@ export default function LaboratoryPage() {
         >
           <div className="">
             <h1 className="my-10 text-9xl font-bold">L A B O R A T O R Y</h1>
-            <Carousel />
             <CardContainer />
 
             <button className="btn btn-primary">Get Started</button>

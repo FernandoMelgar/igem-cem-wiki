@@ -1,12 +1,7 @@
 import SectionContent from "../../components/section/fullwidth_image_section";
-import safety1 from "../../components/section/safety1.mp4";
-import safety2 from "../../components/section/safety2.mp4";
-import safety3 from "../../components/section/safety3.mp4";
-import safety4 from "../../components/section/safety4.mp4";
-import safety5 from "../../components/section/safety5.mp4";
 import * as React from "react";
 
-
+/*
 const info = [
     {
         title: "PROBLEM",
@@ -145,4 +140,4 @@ function ProblemSection() {
             </div>
         </div>
     )
-}
+}*/
