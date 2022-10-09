@@ -1,8 +1,3 @@
-import safetyBg2 from "./safety2.mp4";
-import safetyBg3 from "./safety3.mp4";
-import safetyBg4 from "./safety4.mp4";
-import safetyBg5 from "./safety5.mp4";
-import GlassCard from "../glass_card";
 import * as React from "react";
 
 export default function SectionContent(props) {

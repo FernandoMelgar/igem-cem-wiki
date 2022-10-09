@@ -9,6 +9,7 @@ import TeamPage from "./pages/team/team_page";
 import SocialImpactPage from "./pages/social_impact/social_impact_page";
 import NotebookPage from "./pages/notebook/notebook_page";
 import HomePage from "./pages/home/home_page";
+import DemoPage from "./pages/demo_page";
 
 export default function App() {
     return (
@@ -27,6 +28,8 @@ export default function App() {
                 <Route path="/human-practices" element={<SocialImpactPage/>}/>
                 <Route path="/education" element={<SocialImpactPage/>}/>
                 <Route path="/sustainable" element={<SocialImpactPage/>}/>
+                <Route path="/demo" element={<DemoPage/>}/>
+
 
             </Routes>
             <IgemFooter/>

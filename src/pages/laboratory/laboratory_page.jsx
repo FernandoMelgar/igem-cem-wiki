@@ -1,8 +1,6 @@
 import laboratoryBg from "./Laboratory.png";
-import Carousel from "../components/Carousel";
-import { cardData } from "../components/componentData/CardData";
-import CardContainer from "../components/card/CardContainer";
-import Card from "../components/card/card";
+import Carousel from "../../components/carousel";
+import CardContainer from "../../components/card/CardContainer";
 
 export default function LaboratoryPage() {
   return (
