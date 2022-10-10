@@ -1,4 +1,5 @@
-import { ReactComponent as VennSvg } from "./social_impact_venn.svg";
+const vennDiagram =
+  "https://static.igem.wiki/teams/4260/wiki/social-impact-venn-800.png";
 
 const lorem =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec ante nec sapien consectetur\n" +
@@ -44,11 +45,11 @@ export default function SocialImpactPage() {
             {lorem}
           </p>
         </div>
-        <div className=" m-8">
-          <VennSvg
-            className="social_impact_venn m-auto"
-            style={{ height: "90vh" }}
-          ></VennSvg>
+        <div
+          className=" m-8"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <img src={vennDiagram} />
         </div>
 
         <section className="pt-16">
